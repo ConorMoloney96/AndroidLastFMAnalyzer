@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LastFMAnalyzer</string>
+    <string name = "look_for_tracks"> Looking for tracks in the area you selected. </string>
+    <string name = "no_tracks">"No tracks found for the Geo area you selected. </string>
+
+    <string name= "track_button_label"> Most popular tracks. </string>
+    <string-array name="metros">
+        <item>Ireland</item>
+        <item>Spain</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>United+States</item>
+        <item>Germany</item>
+    </string-array>
+</resources>
