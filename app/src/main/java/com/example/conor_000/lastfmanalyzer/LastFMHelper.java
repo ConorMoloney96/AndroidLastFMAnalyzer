@@ -54,11 +54,9 @@ public class LastFMHelper {
               if(responseCode!= HTTP_STATUS_OK)
               //if the responses status is not 200 to indicate a valid response
               {
-                    throw new APIException("Invalid response from last.fm"+responseCode);
+                    throw new APIException("Invalid response from last.fm"+ responseCode);
               }
-              //
-              //HttpEntity entity = response.getEntity(); //A HttpEntity is most of the HttpResponse albeit without the status line
-              //InputStream ist = entity.getContent();
+
               ByteArrayOutputStream content = new ByteArrayOutputStream();
               InputStream in = urlConnection.getInputStream();
 
