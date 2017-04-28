@@ -59,7 +59,7 @@ public class LastFMWebAPIFetchTask extends AsyncTask<String, Integer, String> {
 
          //progDialog.dismiss(); gets rid of the Progress Dialogue bar initialized in preExecute
          if(result.length() ==0) {
-             this.activity.alert("No track data found. Soz.");
+             this.activity.alert("No track data found.");
              return;
          }
 
@@ -92,4 +92,5 @@ public class LastFMWebAPIFetchTask extends AsyncTask<String, Integer, String> {
     }
 
     }
+
 
